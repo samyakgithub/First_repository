@@ -1,0 +1,109 @@
+<html><title>TIME TABLE </title>
+    <body><h1 align="Center"><strong>MY STUDY TIME TABLE  </strong></h1>
+        <table border="5" align="center"><font face="Times New Roman">
+            <tr>
+                <th>DAYS</th>
+                <th align="Center" colspan="2">7:00-8:15 am</th>
+                <th align="Center" colspan="2">8:15-8:45 am</th>
+                <th align="Center" colspan="2"> 8:45-9:45 am</th>
+                <th align="Center" colspan="2">9:45am-6:10pm </th>
+                <th align="Center"colpan="2">6:10pm-7:05pm </th>
+                <th align="Center"colspan="2">7:05pm-8:15 pm </th>
+                <th align="Center" colspan="2">8:15pm-9:00pm</th>
+                <th align="Center"colspan="2">9:00pm-10:00pm</th> 
+                <th align="Center"colspan="2">10:00pm-12:00pm </th>   
+                <th align="Center"colspan="2">12:00pm-01:00am </th>
+                <th align="Center"colspan="2">1:00am-7:00am </th> 
+            </tr>
+
+           <tr>
+                <th>MON </th>
+                <td colspan="2" align="Center">Morning WOrk </td>
+                <td colspan="2" align="Center">Get ready for college </td>
+                <td colspan="2" align="Center">Travel to college via BUS </td>
+                <td rowspan="6" align="center">COLLEGE </td>
+                <td colspan="2" align="Center">Travel to home via BUS </td>
+                <td colspan="2" align="Center">Computer Class</td>
+                <td colspan="2" align="Center">Refreshment by listening Music </td>
+                <td colspan="2" align="Center">MATHS</td>
+                <td colspan="2" align="Center">Other Subjects and dinner</td>
+                <td colspan="2" align="Center">Special Time</td>
+                <td colspan="2" align="Center">SLEEP</td>
+            </tr>
+            <tr>
+                <th>TUE</th>
+                <td colspan="2" align="Center">Morning WOrk </td>
+                <td colspan="2" align="Center"> Get ready for college </td>
+                <td colspan="2" align="Center">Travel to college via BUS </td>
+                <td colspan="2" align="Center">Travel to home via BUS </td>
+                <td colspan="2" align="Center">Computer Class</td>
+                <td colspan="2" align="Center">Refreshment by listening Music </td>
+                <td colspan="2" align="Center">MATHS</td>
+                <td colspan="2" align="Center">Other Subjects and dinner</td>
+                <td colspan="2" align="Center">Special Time</td>
+                <td colspan="2" align="Center">SLEEP</td>
+            </tr>
+            <tr>
+                <th>WED</th>
+                <td colspan="2" align="Center">Morning WOrk </td>
+                <td colspan="2" align="Center"> Get ready for college </td>
+                <td colspan="2" align="Center">Travel to college via BUS </td>
+                <td colspan="2" align="Center">Travel to home via BUS </td>
+                <td colspan="2" align="Center">Computer Class</td>
+                <td colspan="2" align="Center">Refreshment by listening Music </td>
+                <td colspan="2" align="Center">MATHS</td>
+                <td colspan="2" align="Center">Other Subjects and dinner</td>
+                <td colspan="2" align="Center">Special Time</td>
+                <td colspan="2" align="Center">SLEEP</td>
+            </tr>
+            <tr>
+                <th>THURS</th>
+                <td colspan="2" align="Center">Morning WOrk </td>
+                <td colspan="2" align="Center"> Get ready for college </td>
+                <td colspan="2" align="Center">Travel to college via BUS </td>
+                <td colspan="2" align="Center">Travel to home via BUS </td>
+                <td colspan="2" align="Center">Computer Class</td>
+                <td colspan="2" align="Center">Refreshment by listening Music </td>
+                <td colspan="2" align="Center">MATHS</td>
+                <td colspan="2" align="Center">Other Subjects and dinner</td>
+                <td colspan="2" align="Center">Special Time</td>
+                <td colspan="2" align="Center">SLEEP</td>
+            </tr>
+            <tr>
+                <th>FRI</th>
+                <td colspan="2" align="Center">Morning WOrk </td>
+                <td colspan="2" align="Center"> Get ready for college </td>
+                <td colspan="2" align="Center">Travel to college via BUS </td>
+                <td colspan="2" align="Center">Travel to home via BUS </td>
+                <td colspan="2" align="Center">Computer Class</td>
+                <td colspan="2" align="Center">Refreshment by listening Music </td>
+                <td colspan="2" align="Center">MATHS</td>
+                <td colspan="2" align="Center">Other Subjects and dinner</td>
+                <td colspan="2" align="Center">Special Time</td>
+                <td colspan="2" align="Center">SLEEP</td>
+            </tr>
+            <tr><th>SAT</th>
+                <td colspan="2" align="Center">Morning WOrk </td>
+                <td colspan="2" align="Center"> Get ready for college </td>
+                <td colspan="2" align="Center">Travel to college via BUS </td>
+                <td colspan="2" align="Center">Travel to home via BUS </td>
+                <td colspan="2" align="Center">Computer Class</td>
+                <td colspan="2" align="Center">Refreshment by listening Music </td>
+                <td colspan="2" align="Center">MATHS</td>
+                <td colspan="2" align="Center">Other Subjects and dinner</td>
+                <td colspan="2" align="Center">Special Time</td>
+                <td colspan="2" align="Center">SLEEP</td>
+            </tr>
+            <tr><th> SUN</th>
+                <td colspan="4" align="center">SLEEP</td>
+                <td colspan="2" align="center">Getting Fresh and Have A breakfast </td>
+                <td colspan="2" align="Center">Helping family in house work</td>
+                <td colspan="6" align="center">Watching Cricket/Movies/TV  
+                </td>
+                <td colspan="2" align="center">Dinner And Family Time </td>
+                <td colspan="2" align="Center">Special Time</td>
+                <td colspan="2" align="Center"> SLEEP</td>
+            </tr>
+        </font>  </table>
+        </body>
+</html>
