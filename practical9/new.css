@@ -1,0 +1,44 @@
+#mh {
+    height: 1cm;
+    width: 1cm;
+    mix-blend-mode: subtract;
+}
+
+.card-title {
+    color: black;
+}
+ ul {
+    list-style-type: none;
+  border-top: 0%;
+  border-left: 2%;
+  display: flex;
+  color: rgb(111, 0, 255);
+  padding: 0% 0% 0% 0%;
+  font-stretch: expanded;
+  font-size: medium;
+  align-self: center;
+  display: inline block;
+  }
+  .card {
+    height: 25%;
+    width: 25%;
+  }
+  .first {
+    margin-left: 2%;
+  }
+ .second {
+    list-style-type: none;
+  border-top: 0%;
+  border-left: 2%;
+  display: flex;
+  color: rgb(111, 0, 255);
+  padding: 0% 0% 0% 0%;
+  font-stretch: expanded;
+  font-size: medium;
+  align-self: center;
+  display: inline block;
+
+ }
+ .row {
+    display: flex;
+ }
