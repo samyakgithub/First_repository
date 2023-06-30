@@ -1,0 +1,17 @@
+#hm{
+    width: 100px;
+    height: 25;
+}
+
+.carousel-caption {
+    color: black;
+}
+h1{
+    color: black;
+    border: none;
+    padding: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: justify;
+    margin-right: justify;
+    display: flex;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 8</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="gc.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img id="hm" src="data:image/jpeg;base64,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"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Contact us</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">About us </a></li>
+                </ul>
+              </li>
+              <li><button class="btn btn-primary" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button></li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img2.jpg" class="d-block w-100" alt="img2">
+            <div class="carousel-caption d-none d-md-block">
+              <a href="https://www.youtube.com/watch?v=_P9YXESg5Es&pp=ygUJa2Fpc2UgaHVh"><h5>Kaise Hua </h5></a>
+              <p>Arijit Singh, Vishal Mishra Song Out Now</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img3.jpg" class="d-block w-100" alt="img3">
+            <div class="carousel-caption d-none d-md-block">
+                <a href="https://www.youtube.com/watch?v=uCMYzolEbO0&pp=ygUHZGFyYXNhbA%3D%3D"><h5>Darasal</h5></a>
+              <p>Atif Aslam, New Song </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img6.jpeg" class="d-block w-100" alt="img6">
+            <div class="carousel-caption d-none d-md-block">
+              <a href="https://www.youtube.com/watch?v=DFmkPjDdfOo&pp=ygUPbGl0dGxlIGJpdCBtb3Jl"><h5>Little Bit More </h5></a>
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Form -->
+          <section class="">
+            <form action="">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+                <!--Grid column-->
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Sign Up to Our Services</strong>
+                  </p>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-md-5 col-12">
+                  <!-- Email input -->
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example29" class="form-control" />
+                    <label class="form-label" for="form5Example29">Email address</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-auto">
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    Subscribe
+                  </button>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </form>
+          </section>
+          <!-- Section: Form -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright
+        </div>
+        <!-- Copyright -->
+      </footer>
+</body>
+</html>
